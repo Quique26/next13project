@@ -1,5 +1,9 @@
 import Link from "next/link"
 
+export const metadata = {
+  title: "Tienda oficial"
+}
+
 export default function TiendaLayout({children}){
     return (
       <>
@@ -10,7 +14,7 @@ export default function TiendaLayout({children}){
                 <Link href="/tienda/categorias">Categorias</Link>
             </li>
             <li>
-                <Link href="/tienda/categorias/computadoras">Productos</Link>
+                <Link href="/tienda/categorias/computadoras">Computadoras</Link>
             </li>
         </ul>
       </nav>
